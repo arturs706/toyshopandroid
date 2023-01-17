@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AdminFragment">
+
+    <FrameLayout
+        android:id="@+id/flCheckUsers"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blurredfigure"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check users"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check all users and their details"
+            android:layout_gravity="center|left"
+            android:layout_margin="20dp"
+            />
+        <Button
+            android:id="@+id/btnUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="20dp"
+            />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/flUserOrders"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blurredfigure"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check user orders"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check all user orders"
+            android:layout_gravity="center|left"
+            android:layout_margin="20dp"
+            />
+        <Button
+            android:id="@+id/btnUserOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="20dp"
+            />
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>

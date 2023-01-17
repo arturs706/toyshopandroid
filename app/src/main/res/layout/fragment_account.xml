@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AccountFragment"
+    >
+
+    <FrameLayout
+        android:id="@+id/flUpdateUser"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blurredfigure"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update profile"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add further details avout yourself or change your current details"
+        android:layout_gravity="center|left"
+        android:layout_margin="20dp"
+        />
+        <Button
+            android:id="@+id/ivUpdateAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="20dp"
+
+
+            />
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/flAdminPanel"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blurredfigure"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin panel"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check admin panel"
+            android:layout_gravity="center|left"
+            android:layout_margin="20dp"
+            />
+        <Button
+            android:id="@+id/btnAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="20dp"
+
+
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flChangeAddress"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blurredfigure"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update address"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add further details avout yourself or change your current details"
+            android:layout_gravity="center|left"
+            android:layout_margin="20dp"
+            />
+        <Button
+            android:id="@+id/ivUpdateAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flChangePassword"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/blurbutton"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change password"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:layout_gravity="left|top"
+
+            />
+        <Button
+            android:id="@+id/ivUpdatePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="left|bottom"
+            android:layout_margin="20dp"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flLogout"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/blurbutton"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:layout_gravity="left|top"
+
+            />
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorDarkBackground"
+            android:layout_gravity="left|bottom"
+            android:layout_margin="20dp"
+            />
+    </FrameLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SplashScreenActivity"
+    android:orientation="vertical"
+    android:background="@color/colorDarkBackground"
+    >
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/ivBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/untitled"
+            android:scaleType="centerCrop"
+            android:alpha="0.4"
+
+            />
+        <LinearLayout
+            android:paddingTop="280dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logoagain"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:text="Toys Are"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
+                android:paddingTop="60dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="children's words"
+                android:textColor="@color/colorPrimary"
+                android:textSize="28sp"
+                android:paddingTop="15dp"
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="and play is their language"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="40dp"
+                android:layout_centerInParent="true"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnGetStartedReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GET STARTED"
+                android:layout_marginTop="30dp"
+                android:paddingHorizontal="115dp"
+                android:background="@drawable/buttonbackground"
+                android:textSize="19sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

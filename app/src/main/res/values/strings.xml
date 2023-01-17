@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">uwlapp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="cities">
+        <item>Bath</item>
+        <item>Birmingham</item>
+        <item>Bradford</item>
+        <item>Brighton and Hove</item>
+        <item>Bristol</item>
+        <item>Cambridge</item>
+        <item>Canterbury</item>
+        <item>Carlisle</item>
+        <item>Chelmsford</item>
+        <item>Chester</item>
+        <item>Chichester</item>
+        <item>Colchester</item>
+        <item>Coventry</item>
+        <item>Derby</item>
+        <item>Doncaster</item>
+        <item>Durham</item>
+        <item>Ely</item>
+        <item>Exeter</item>
+        <item>Gloucester</item>
+        <item>Hereford</item>
+        <item>Kingston-upon-Hull</item>
+        <item>Lancaster</item>
+        <item>Leeds</item>
+        <item>Leicester</item>
+        <item>Lichfield</item>
+        <item>Lincoln</item>
+        <item>Liverpool</item>
+        <item>London</item>
+        <item>Manchester</item>
+        <item>Milton Keynes</item>
+        <item>Newcastle upon Tyne</item>
+        <item>Norwich</item>
+        <item>Nottingham</item>
+        <item>Oxford</item>
+        <item>Peterborough</item>
+        <item>Plymouth</item>
+        <item>Portsmouth</item>
+        <item>Preston</item>
+        <item>Ripon</item>
+        <item>Salford</item>
+        <item>Salisbury</item>
+        <item>Sheffield</item>
+        <item>Southampton</item>
+        <item>St Albans</item>
+        <item>Southend-on-Sea</item>
+        <item>Stoke-on-Trent</item>
+        <item>Sunderland</item>
+        <item>Truro</item>
+        <item>Wakefield</item>
+        <item>Wells</item>
+        <item>Westminster</item>
+        <item>Winchester</item>
+        <item>Wolverhampton</item>
+        <item>Worcester</item>
+        <item>York</item>
+        <item>Armagh</item>
+        <item>Belfast</item>
+        <item>Bangor</item>
+        <item>Derry</item>
+        <item>Lisburn</item>
+        <item>Londonderry</item>
+        <item>Newry</item>
+        <item>Aberdeen</item>
+        <item>Dundee</item>
+        <item>Dunfermline</item>
+        <item>Edinburgh</item>
+        <item>Glasgow</item>
+        <item>Inverness</item>
+        <item>Perth</item>
+        <item>Stirling</item>
+        <item>Bangor</item>
+        <item>Cardiff</item>
+        <item>Newport</item>
+        <item>St Asaph</item>
+        <item>St Davids</item>
+        <item>Swansea</item>
+        <item>Truro</item>
+        <item>St Helier</item>
+        <item>St Peter Port</item>
+        <item>St Saviour</item>
+        <item>Castletown</item>
+        <item>Douglas</item>
+        <item>Port Erin</item>
+        <item>Port Saint Mary</item>
+        <item>Port Saint Peter</item>
+        <item>Port Saint Sampson</item>
+        <item>Port Stanley</item>
+        <item>St Helier</item>
+        <item>St John</item>
+        <item>St Peter Port</item>
+        <item>St Saviour</item>
+        <item>Wrexham</item>
+
+
+    </string-array>
+</resources>
+

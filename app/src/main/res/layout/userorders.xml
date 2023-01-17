@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/blurredfigure"
+
+    >
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/tvOrder"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="left|top"
+          android:maxLength="1000"
+          android:fontFamily="@font/poppinsbold"
+          android:textSize="18sp"
+          android:layout_margin="20dp"
+          android:text="Order number"
+          />
+      <TextView
+          android:id="@+id/tvOrderTwo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right|top"
+          android:maxLength="1000"
+          android:layout_margin="20dp"
+          android:text="Order number"
+          />
+  </FrameLayout>
+    <TextView
+        android:id="@+id/tvFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:maxLength="1000"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:text="Order number"
+        />
+    <Button
+        android:id="@+id/checkOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:text="Check"
+        android:textColor="@color/colorDarkBackground"
+
+        />
+
+</FrameLayout>

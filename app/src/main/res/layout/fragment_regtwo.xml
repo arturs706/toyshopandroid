@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.RegtwoFragment"
+    style="@style/datepicker"
+
+
+    >
+<TextView
+    android:text= "FURTHER PERSONAL DETAILS"
+    android:textSize="18sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:paddingHorizontal="38dp"
+    android:layout_marginTop="25dp"
+
+    />
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="37dp"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:text="GENDER"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+
+
+
+        >
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+
+
+            />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEMALE"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+
+
+            />
+    </RadioGroup>
+
+
+</LinearLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/colorPrimary"
+    android:layout_marginTop="27dp"
+    android:layout_marginHorizontal="34dp"
+
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSpecify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OR SPECIFY"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/colorPrimary"
+    android:layout_marginTop="27dp"
+    android:layout_marginHorizontal="34dp"
+    >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DATE OF BIRTH"
+        android:paddingVertical="10dp"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/colorPrimary"
+    android:layout_marginTop="27dp"
+    android:layout_marginHorizontal="34dp"
+
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADDRESS"
+        android:paddingVertical="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<Spinner
+    android:id="@+id/etcity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:entries="@array/cities"
+    android:layout_marginTop="38dp"
+    android:layout_marginLeft="31dp"
+    android:layout_marginRight="27dp"
+
+    />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/colorPrimary"
+    android:layout_marginTop="27dp"
+    android:layout_marginHorizontal="34dp"
+
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etpostcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="POST CODE"
+        android:paddingVertical="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnRegComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        android:paddingVertical="16dp"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="126dp"
+        android:background="@drawable/buttonbackground"
+        android:textSize="17sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textColor="@color/colorDarkBackground"
+
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="38dp"
+
+        >
+        <TextView
+            android:text="HAVE AN ACCOUNT? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+
+            />
+        <TextView
+            android:id="@+id/tvLogin"
+            android:text=" SIGN IN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:onClick = "backtosignin"
+
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

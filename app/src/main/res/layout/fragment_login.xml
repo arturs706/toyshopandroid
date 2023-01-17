@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".fragments.LoginFragment"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    >
+<TextView
+    android:textSize="18sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:paddingHorizontal="38dp"
+    android:layout_marginTop="50dp"
+    android:text="LOGIN"
+    />
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/colorPrimary"
+    android:layout_marginTop="27dp"
+    android:layout_marginHorizontal="34dp"
+    app:errorEnabled="true"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:paddingVertical="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/colorPrimary"
+    android:layout_marginTop="27dp"
+    android:layout_marginHorizontal="34dp"
+    app:errorEnabled="true"
+    >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:paddingVertical="10dp"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        app:passwordToggleEnabled="true"
+
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:id="@+id/btnGetStartedReg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LOG IN"
+    android:paddingVertical="16dp"
+    android:layout_marginTop="60dp"
+    android:paddingHorizontal="142dp"
+    android:background="@drawable/buttonbackground"
+    android:backgroundTint="@color/colorAccentDark"
+    android:textSize="17sp"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:textColor="@color/colorDarkBackground"
+    android:enabled="false"
+    />
+<TextView
+    android:id="@+id/tvForgotPassword"
+    android:layout_marginTop="20dp"
+    android:paddingHorizontal="38dp"
+    android:text="HAVE YOU FORGOTTEN YOUR PASSWORD? "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:textSize="13sp"
+
+    />
+
+<LinearLayout
+    android:layout_marginTop="160dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="38dp"
+
+    >
+    <TextView
+        android:text="DON’T HAVE AN ACCOUNT?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp"
+
+        />
+    <TextView
+        android:id="@+id/tv4"
+        android:text=" REGISTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:onClick="omnidirectionalities"
+        android:textSize="13sp"
+        />
+</LinearLayout>
+</LinearLayout>

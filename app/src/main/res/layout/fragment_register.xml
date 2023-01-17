@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.RegisterFragment">
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:paddingHorizontal="38dp"
+            android:layout_marginTop="25dp"
+            android:text="PERSONAL DETAILS"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="34dp"
+            app:errorEnabled="true"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="FULL NAME"
+                android:inputType="textPersonName"
+                android:paddingVertical="10dp"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="34dp"
+            app:errorEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="USERNAME"
+                android:inputType="textPersonName"
+                android:paddingVertical="10dp"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="34dp"
+            app:errorEnabled="true"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MOBILE PHONE"
+                android:inputType="phone"
+                android:paddingVertical="10dp"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="34dp"
+            app:errorEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="EMAIL"
+                android:inputType="textEmailAddress"
+                android:paddingVertical="10dp"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="34dp"
+            app:errorEnabled="true"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPasswordOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:paddingVertical="10dp"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="34dp"
+            app:errorEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPasswordTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RE-ENTER PASSWORD"
+                android:inputType = "textPassword"
+                android:paddingVertical="10dp"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnNextsreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTINUE"
+            android:paddingVertical="16dp"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="126dp"
+            android:background="@drawable/buttonbackground"
+            android:textSize="17sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:textColor="@color/colorDarkBackground"
+            android:backgroundTint="@color/colorAccentDark"
+            android:enabled="false"
+            />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="38dp"
+
+            >
+            <TextView
+                android:text="HAVE AN ACCOUNT? "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+
+                />
+            <TextView
+                android:id="@+id/tvLogin"
+                android:text=" SIGN IN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+                android:onClick = "backtosignin"
+
+
+                />
+
+        </LinearLayout>
+</LinearLayout>

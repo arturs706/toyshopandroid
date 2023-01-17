@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorDarkBackground"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/backarrow"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginHorizontal="40dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logodarksmall"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/ivCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cart"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginHorizontal="40dp"
+
+            />
+        <TextView
+            android:id="@+id/tvCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="27dp"
+            />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/cardview_dark_background"
+
+        >
+        <ImageButton
+            android:id="@+id/ivOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orders"
+            android:layout_marginLeft="32dp"
+
+            />
+        <ImageButton
+            android:id="@+id/ivAccountTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/accounttop"
+            android:layout_marginLeft="34dp"
+
+            />
+
+
+        <ImageButton
+            android:id="@+id/ivContactUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/contactus"
+            android:layout_marginLeft="34dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:paddingTop="40dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/cartisempty"
+            android:text="CART IS EMPTY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+
+
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="14dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+
+                />
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/totalpriceTxt"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total price"
+        android:textSize="18sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total price"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/continueToProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="163dp"
+        android:text="PAY"
+        android:textColor="@color/colorDarkBackground"
+        android:textSize="19sp" />
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/flNavContainer"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:id="@+id/ivHome"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginHorizontal="40dp"
+
+            />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"
+                android:id="@+id/ivSearch"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginRight="95dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/favourites"
+                android:id="@+id/ivFavourites"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="95dp"
+                />
+        </FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account"
+            android:id="@+id/ivAccount"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginHorizontal="40dp"
+            />
+    </FrameLayout>
+
+
+
+</LinearLayout>

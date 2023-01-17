@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<TextView
+        android:text="SPEAK TO AN EXPERT"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:textSize="17dp"
+        android:paddingHorizontal="32dp"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:textSize="15dp"
+        android:paddingHorizontal="32dp"
+        android:justificationMode="inter_word"
+        android:text="If any assistance is needed, our sales assistants are
+always available during our office working hours. Please
+feel free to dial us on 02020202020 every day, between
+7AM and 9PM"
+        />
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="113dp"
+        android:text="02072444444"
+        android:textColor="@color/colorDarkBackground"
+        android:textSize="19sp" />
+
+    <TextView
+        android:text="EMAIL US"
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:textSize="17dp"
+        android:paddingHorizontal="32dp"
+        />
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:textSize="15dp"
+        android:paddingHorizontal="32dp"
+        android:justificationMode="inter_word"
+        android:text="We understand that occasionally resolving arised issues may take longer than our clients expect. Hence, we would
+also like to offer to approach us via an email, it the query is
+urgent. "
+        />
+    <Button
+        android:id="@+id/btnEmailUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="132dp"
+        android:text="EMAIL US"
+        android:textColor="@color/colorDarkBackground"
+        android:textSize="19sp" />
+
+    <TextView
+        android:text="PRIVACY POLICY"
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:textSize="17dp"
+        android:paddingHorizontal="32dp"
+        />
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:textSize="15dp"
+        android:paddingHorizontal="32dp"
+        android:justificationMode ="inter_word"
+        android:text="We also take our clients privacy very seriously. Please read our privacy policy to understand how we use your data."
+        />
+    <Button
+        android:id="@+id/btnPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="100dp"
+        android:text="PRIVACY POLICY"
+        android:textColor="@color/colorDarkBackground"
+        android:textSize="19sp" />
+
+
+</LinearLayout>
